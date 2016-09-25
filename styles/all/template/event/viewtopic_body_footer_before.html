@@ -1,0 +1,6 @@
+<!-- IF .subscribers and S_USER_LOGGED_IN -->
+	<div class="stat-block responsive-hide">
+		<h3><a id="subscribers">{L_SUBSCRIBERS}</a></h3>
+		<p><!-- BEGIN subscribers --><!-- IF not subscribers.S_FIRST_ROW --> &bull; <!-- ENDIF --> <div class="subscribers-avatar">{subscribers.AVATAR}</div> {subscribers.NAME}<!-- END subscribers --></p>
+	</div>
+<!-- ENDIF -->
