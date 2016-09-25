@@ -16,7 +16,7 @@
 		}
 	],
 	"require": {
-		"php": ">=5.4"
+		"php": ">=5.3.3"
 	},
 	"require-dev": {
 		"phpbb/epv": "dev-master"
@@ -24,12 +24,12 @@
 	"extra": {
 		"display-name": "Topic Subscribers",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.0,<3.3.*@dev"
+			"phpbb/phpbb": ">=3.1.0-a1,<3.3.0*@dev"
 		},
 		"version-check": {
 			"host": "www.dmzx-web.net",
 			"directory": "/versions",
-			"filename": "topicsubscribers_32x_version.json"
+			"filename": "topicsubscribers_version.json"
 		}
 	}
 }
